@@ -19,7 +19,7 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-remote-theme
-remote_theme: lawrennd/proceedings
+#remote_theme: lawrennd/proceedings
 description: >- # this means to ignore newlines until "baseurl:"
   The AI ATI Fellows is a community of researchers from the United Kingdom. The main focus of the research is on the development and application of artificial intelligence and machine learning.
   This website presents a series of events where this community share knowledge and experiences in different domains.
@@ -37,6 +37,7 @@ ghub:
 repository: cabrerac/ukaifellows/
 # Build settings
 markdown: kramdown
+theme: minima
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
