@@ -19,7 +19,7 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 description: >- # this means to ignore newlines until "baseurl:"
-  The AI ATI Fellows is a community of researchers from the United Kingdom with focus on the development and application of artificial intelligence and machine learning.
+  The AI ATI Fellows community groups AI researchers from the United Kingdom. These scientists focus on the development and application of artificial intelligence and machine learning technologies.
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
