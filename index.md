@@ -6,7 +6,7 @@ layout: home
 title: "UK AI ATI Fellows Community"
 ---
 
-<p>The AI ATI Fellows Community is a group of researchers from the United Kingdom. The main focus of this community's research is on the development and application of artificial intelligence and machine learning technologies.</p>
+<p>The AI ATI Fellows Community focuses on the development and application of artificial intelligence and machine learning technologies.</p>
 
 <p>This website presents past and upcoming events where the AI ATI Fellows Community shares knowledge and experiences from different research projects around the UK.</p>
 
