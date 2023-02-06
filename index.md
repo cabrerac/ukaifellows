@@ -10,8 +10,12 @@ The AI ATI Fellows is a community of researchers from the United Kingdom. The ma
 
 This website presents the past and upcoming events where the AI ATI Fellows community ahres knowledge and experiences from different research projects around the UK.
 
-###Upcoming Events
+Upcoming Events
+_______________
 
-###Past Events
+
+
+Past Events
+___________
 
 
