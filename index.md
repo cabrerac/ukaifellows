@@ -18,7 +18,7 @@ title: "UK AI ATI Fellows Community"
   {% assign firstletter = repository.name | slice: 0 %}
   <li>
     {%-if firstletter=='e'-%}
-    <a href="{{ repository.name | prepend: "https://cabrerac.github.io/" }}"><b>{{ repository.description }}</b></a>
+    <a href="{{ repository.name | prepend: site.baseurlsite }}"><b>{{ repository.description }}</b></a>
     {%-endif-%}
   </li>
   {%- endunless -%}{%- endif -%}{%- endfor -%}
