@@ -16,10 +16,9 @@ title: "UK AI ATI Fellows Community"
 {%- assign sorted = site.github.public_repositories | sort: 'created_date' -%}
 {%- for repository in sorted reversed -%}{%- if repository.has_pages -%}{%- unless repository.name contains 'github.io' -%}
   {% assign firstletter = repository.name | slice: 0 %}
-  <a href="#"><b>{{ repository.name }}</b></a>
   <li>
     {%-if firstletter=='e'-%}
-    <a href="{{ repository.name | prepend: site.baseurl }}"><b>{{ repository.name }}</b></a>
+    <a href="{{ repository.name | prepend: "https://cabrerac.github.io/" }}"><b>{{ repository.description }}</b></a>
     {%-endif-%}
   </li>
   {%- endunless -%}{%- endif -%}{%- endfor -%}
