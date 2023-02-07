@@ -14,7 +14,7 @@ title: "UK AI ATI Fellows Community"
 
 <ul class="events-list">
 {%- assign sorted = site.github.public_repositories | sort: 'created_date' -%}
-{%- for event in sorted reversed -%}{%- if event.has_pages -%}{%- unless event.name contains 'github.io' -%}
+{%- for repository in sorted reversed -%}{%- if repository.has_pages -%}{%- unless repository.name contains 'github.io' -%}
   {% assign firstletter = repository.name | slice: 0 %}
   <a href="#"><b>{{ repository.name }}</b></a>
   <li>
