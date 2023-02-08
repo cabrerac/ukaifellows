@@ -27,7 +27,7 @@ github_username: cabrerac
 baseurlsite: "https://cabrerac.github.io/"
 
 ghub:
-  edit: true
+  edit: false
   repository: ukaifellows
 
 repository: cabrerac/ukaifellows/
