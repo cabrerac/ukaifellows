@@ -15,8 +15,8 @@ title: "UK AI ATI Fellows Community"
 <ul>
 {%- assign sorted = site.github.public_repositories | sort: 'created_date' -%}
 {%- for repository in sorted reversed -%}{%- if repository.has_pages -%}{%- unless repository.name contains 'github.io' -%}
-  {% assign firstletter = repository.name | slice: 0 %}
-    {%-if firstletter=='e'-%}
+  {% assign firstletter = repository.name | slice: 0-1 %}
+    {%-if firstletter=='e-'-%}
     <li>
     <a href="{{ repository.name | prepend: site.baseurlsite }}"><b>{{ repository.description }}</b></a>
     </li>
